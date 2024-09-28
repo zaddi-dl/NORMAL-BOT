@@ -2,8 +2,8 @@
 
 const { adams } = require("../Ibrahim/adams");
 const yts = require('yt-search');
-const BaseUrl = 'https://giftedapis.us.kg';
-const adamsapikey = 'ibrahimtech_ai';
+const BaseUrl = 'https://api-gifted-tech.onrender.com';
+const giftedapikey = 'ibrahimtech_ai';
 adams({
   nomCom: "video",
   categorie: "Search",
@@ -28,7 +28,7 @@ adams({
       const videoUrl = videos[0].url;
 
       // Call the API endpoint with the video URL to fetch the video download URLhttps://api.prabath-md.tech/api/ytmp3?url=${encodeURIComponent(urlElement)}`);
-      const apiResponse = await fetch(`${BaseUrl}/api/download/ytmp4?url=${encodeURIComponent(videoUrl)}&apikey=${adamsapikey}`);
+      const apiResponse = await fetch(`${BaseUrl}/api/download/ytmp4?url=${encodeURIComponent(videoUrl)}&apikey=${giftedapikey}`);
       const apiResult = await apiResponse.json();
 
 
@@ -89,7 +89,7 @@ adams({
       const videoUrl = videos[0].url;
 
       // Call the API endpoint with the video URL to fetch audio downlhttps://abu-2f6def455bb4.herokuapp.com/download/ytmp3oad URL
-      const apiResponse = await fetch(`${BaseUrl}/api/download/ytmp3?url=${encodeURIComponent(videoUrl)}&apikey=${adamsapikey}`);
+      const apiResponse = await fetch(`${BaseUrl}/api/download/ytmp3?url=${encodeURIComponent(videoUrl)}&apikey=${giftedapikey}`);
       const apiResult = await apiResponse.json();
 
       if (apiResult.status === 200 && apiResult.success) {
@@ -148,7 +148,7 @@ adams({
       const videoUrl = videos[0].url;
 
       // Call the API endpoint with the video URL to fetch audio download URL
-      const apiResponse = await fetch(`${BaseUrl}/api/download/ytmp3?url=${encodeURIComponent(videoUrl)}&apikey=${adamsapikey}`);
+      const apiResponse = await fetch(`${BaseUrl}/api/download/ytmp3?url=${encodeURIComponent(videoUrl)}&apikey=${giftedapikey}`);
       const apiResult = await apiResponse.json();
 
       if (apiResult.status === 200 && apiResult.success) {

@@ -26,7 +26,7 @@ adams({
       const videoUrl = videos[0].url;
 
       // https://abu-2f6def455bb4.herokuapp.com/download/ytmp3?url=https://music.youtube.com/watch?v=6POZlJAZsok&si=FgIl9XCg__1V8m4_}`);
-      const apiResponse = await fetch(`https://abu-2f6def455bb4.herokuapp.com/ytmp3?url=${encodeURIComponent(Element.url)}`);
+      const apiResponse = await fetch(`https://abu-2f6def455bb4.herokuapp.com/ytmp4?url=${encodeURIComponent(Element.url)}`);
       const apiResult = await apiResponse.json();
 
       if (apiResult.status === 'success ✅') {

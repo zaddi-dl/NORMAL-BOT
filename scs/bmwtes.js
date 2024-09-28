@@ -2,7 +2,7 @@
 
 const { adams } = require("../Ibrahim/adams");
 const yts = require('yt-search');
-const BaseUrl = 'https://api-gifted-tech.onrender.com';
+const BaseUrl = 'https://giftedapis.us.kg';
 const giftedapikey = 'ibrahimtech_ai';
 adams({
   nomCom: "video",

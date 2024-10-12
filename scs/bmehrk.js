@@ -12,7 +12,8 @@ function getDescriptionFromEnv(_0x24f7af) {
   const _0x4c6300 = fs.readFileSync(filePath, "utf-8");
   const _0x4f2dfc = JSON.parse(_0x4c6300);
   const _0x3b08a6 = _0x4f2dfc.env[_0x24f7af];
-  return _0x3b08a6 && _0x3b08a6.description ? _0x3b08a6.description : "The environment variable description was not found.";
+  return _0x3b08a6 && _0
+  x3b08a6.description ? _0x3b08a6.description : "The environment variable description was not found.";
 }
 adams({
   'nomCom': "setvar",

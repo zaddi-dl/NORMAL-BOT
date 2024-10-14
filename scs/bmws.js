@@ -1,4 +1,3 @@
-
 const googleTTS = require('google-tts-api');
 const {adams} = require("../Ibrahim/adams");
 
@@ -23,6 +22,7 @@ console.log(url);
 
 
         
+
 }
 ) ;
 

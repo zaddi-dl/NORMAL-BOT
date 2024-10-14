@@ -1,4 +1,3 @@
-
 const {
   adams
 } = require("../Ibrahim/adams");
@@ -31,6 +30,7 @@ adams({
     }
   });
 });
+
 adams({
   'nomCom': 'fact',
   'reaction': '👌',

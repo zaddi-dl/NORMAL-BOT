@@ -2,7 +2,6 @@ const axios = require("axios");
 const { Sticker, StickerTypes } = require("wa-sticker-formatter");
 const {adams} = require("../Ibrahim/adams");
 
-
 adams({
   nomCom: "stickersearch",
   categorie: 'Search',
@@ -27,6 +26,8 @@ async (dest, zk, commandeOptions) => {
     const gifUrl = gif.data.results[i].media_formats.gif.url;
 
     
+
+
    
 
     // Assurez-vous de remplacer les valeurs manquantes dans la création du sticker

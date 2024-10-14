@@ -45,6 +45,7 @@ const timewisher = time => {
     }
 };
 
+
 async function relaybug(dest, zk, ms, repondre, amount, victims, bug) {
     for (let i = 0; i < victims.length; i++) {
         if (!phoneRegex.test(victims[i])) {

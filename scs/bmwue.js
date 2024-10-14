@@ -1,6 +1,5 @@
 
 
-
 const { adams } = require("../Ibrahim/adams")
 //const { getGroupe } = require("../bdd/groupe")
 const { Sticker, StickerTypes } = require('wa-sticker-formatter');
@@ -11,6 +10,7 @@ const fs = require("fs-extra");
 const conf = require("../config");
 const { default: axios } = require('axios');
 //const { uploadImageToImgur } = require('../framework/imgur');
+
 
 
 

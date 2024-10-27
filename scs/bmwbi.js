@@ -12,3 +12,4 @@ adams({ nomCom: "test", reaction: "🧒", nomFichier: __filename }, async (dest,
 });
 console.log("mon test");
 
+

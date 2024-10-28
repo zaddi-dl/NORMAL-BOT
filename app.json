@@ -89,12 +89,10 @@
     "required": false,
     "value": "𝐈𝐛𝐫𝐚𝐡𝐢𝐦 𝐀𝐝𝐚𝐦𝐬"
   },
-    "NUMERO_OWNER":
-  {
-    
-   "desc": "Enter the number that is hosting the bot .Eg.25471077266 without +. Make sure you enter that number. If not the bot will not work.)",
-    "required":true,
-    "value": ""
+    "NUMERO_OWNER":{
+    "description": "Enter the number that is hosting the bot .Eg.25471077266 without +. Make sure you enter that number. If not the bot will not work.)",
+     "value": "",
+     "required":true
   },
     "WARN_COUNT":
   {

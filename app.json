@@ -78,8 +78,8 @@
     "NUMERO_OWNER":
     {
       
-    "desc": "Enter the number that is hosting the bot .Eg.25471077266 without +. Make sure you enter that number. If not the bot will not work.)",
-    "value":"",
+    "description":"put your session ID , the code you received from from ibrahim adams site",   
+      "value":"",
     "required":true
       
     },

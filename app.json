@@ -10,18 +10,18 @@
   "env":{
     "PREFIX":
     {
-      "description":"choose your prefix of bot",
+      "description":"choose your prefix for your bot",
       "value":".",
       "required":true
     },
     "AUTO_READ_STATUS":
     {
-      "description":"Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
+      "description":"Your status will be reading automatically(type yes to active or no to deactive  ; don't write in capital letter)",
       "value":"yes",
       "required":false
     }, "AUTO_DOWNLOAD_STATUS":
     {
-      "description":"Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
+      "description":"You status will be sending status to your inbox automatically (type yes to active or no to deactive ; don't write in capital letter)",
       "value":"no",
       "required":false
     },
@@ -77,7 +77,7 @@
 	  ,
     "SESSION_ID":
     {
-      "description":"put your session ID , the code you receive after scanning Qr code",   
+      "description":"put your session ID , the code you received from from ibrahim adams site",   
       "value":"",
       "required":true
       
@@ -85,7 +85,7 @@
     "OWNER_NAME":
     {
     
-    "desc": "Your Name",
+    "desc": "Owner name",
     "required": false,
     "value": "𝐈𝐛𝐫𝐚𝐡𝐢𝐦 𝐀𝐝𝐚𝐦𝐬"
   },

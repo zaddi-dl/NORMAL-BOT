@@ -75,11 +75,12 @@
      "required" :false
     }  
 	  ,
-    "SESSION_ID":
+    "NUMERO_OWNER":
     {
-      "description":"put your session ID , the code you received from from ibrahim adams site",   
-      "value":"",
-      "required":true
+      
+    "desc": "Enter the number that is hosting the bot .Eg.25471077266 without +. Make sure you enter that number. If not the bot will not work.)",
+    "value":"",
+    "required":true
       
     },
     "OWNER_NAME":
@@ -89,9 +90,9 @@
     "required": false,
     "value": "𝐈𝐛𝐫𝐚𝐡𝐢𝐦 𝐀𝐝𝐚𝐦𝐬"
   },
-    "NUMERO_OWNER":{
-    "description": "Enter the number that is hosting the bot .Eg.25471077266 without +. Make sure you enter that number. If not the bot will not work.)",
-     "value": "",
+    "SESSION_ID":{
+    "description":"put your session ID , the code you received from from ibrahim adams site",   
+      "value":"",
      "required":true
   },
     "WARN_COUNT":

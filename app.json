@@ -31,13 +31,6 @@
       "value":"no",
       "required":false   
       },
-    "AUTO_BIO":
-    {
-      "description":"Enter yes to set bwmxmd autobio that comes with date and time, Enter no to remove  ",
-      "value":"yes",
-      "required":false
-    }
-    ,
      "PM_PERMIT" :
      {
       "description":"Other user can't use your bot in pm (type yes to active or no to deactive ; don't write in capital letter)",
@@ -80,7 +73,7 @@
       
     "description":"put your session ID , the code you received from from ibrahim adams site",   
       "value":"",
-    "required":true
+    "required":false
       
     },
     "OWNER_NAME":

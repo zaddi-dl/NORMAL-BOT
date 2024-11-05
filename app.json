@@ -28,8 +28,8 @@
     },
 "AUTO_BIO":
     {
-      "description":"Enter yes for your bot to auto bio",
-      "value":"no",
+      "description":"Enter yes for your bot to auto bio or no to decline",
+      "value":"yes",
       "required":false
     },
 

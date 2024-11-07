@@ -20,6 +20,12 @@
       "value":"no",
       "required":false
     },
+"AUTO_REACT_STATUS":
+    {
+      "description":"Enter yes for your bot to auto react status",
+      "value":"yes",
+      "required":false
+    },
 "ANTICALL":
     {
       "description":"Enter yes for your bot to auto reject calls",

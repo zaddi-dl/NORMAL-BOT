@@ -15219,6 +15219,7 @@
     "chalk": "^5.3.0",
     "cheerio": "^1.0.0-rc.12",
     "dotenv": "^16.3.1",
+    "express": "^4.18.1",
     "ffmpeg": "^0.0.4",
     "file-type": "16.5.3",
     "fluent-ffmpeg": "^2.1.2",

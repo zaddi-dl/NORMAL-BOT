@@ -20,6 +20,12 @@
       "value":"no",
       "required":false
     },
+"AUDIO_REPLY":
+    {
+      "description":"Enter yes for your bot to audio reply",
+      "value":"yes",
+      "required":false
+    },
 "AUTO_SAVE_CONTACTS":
     {
       "description":"Enter yes for your bot to auto save numbers",

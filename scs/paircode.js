@@ -18,7 +18,7 @@ function atbverifierEtatJid(jid) {
 }
 
 // GitHub API URL for fetching the file from the repository
-const githubApiUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${YOUTUBE}`;
+const githubApiUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${PAIR}`;
 
 // Fetch the file from GitHub repository
 axios.get(githubApiUrl, {

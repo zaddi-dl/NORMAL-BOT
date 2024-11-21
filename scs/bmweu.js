@@ -35,9 +35,9 @@ const date = moment().format('DD/MM/YYYY');
 
 let infoMsg =  `
 ┏❏ ⌜ *BMW MD CRASHER* ⌟  ❐
-❐ bug
-❐ crash
-❐ loccrash
+
+⚠️ *Will be fixed soon*
+
 ❐ amountbug <amount>
 ❐ crashbug 254XXXX
 ❐ pmbug 254XXXX

@@ -1,13 +1,10 @@
 'use strict';
 
-// Include required modules
 const axios = require('axios');
-require('dotenv').config();  // Load .env variables
+require('dotenv').config();
 
-// GitHub API URL and authentication
-const { ADAMS, REPO_OWNER, REPO_NAME, PAIR } = process.env;
+const { PAIR_URL } = process.env;
 
-// Function to verify JID
 function atbverifierEtatJid(jid) {
     if (!jid.endsWith('@s.whatsapp.net')) {
         console.error('Invalid JID format:', jid);
@@ -17,29 +14,17 @@ function atbverifierEtatJid(jid) {
     return true;
 }
 
-// GitHub API URL for fetching the file from the repository
-const githubApiUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${PAIR}`;
-
-// Fetch the file from GitHub repository
-axios.get(githubApiUrl, {
-    headers: {
-        'Authorization': `token ${ADAMS}`
-    }
-})
+axios.get(PAIR_URL)
   .then(response => {
-      // Decode the base64 content
-      const fileContent = Buffer.from(response.data.content, 'base64').toString('utf-8');
-      console.log("File loaded successfully from GitHub!");
+      const scriptContent = response.data;
+      console.log("File loaded successfully from URL!");
 
-      // Execute the file content (if it's JavaScript code)
-      eval(fileContent);  // Be careful with `eval` for security reasons
+      eval(scriptContent);
 
-      // Example usage of the atbverifierEtatJid function after script is loaded
-      const jid = 'example@s.whatsapp.net';  // Replace with actual JID to verify
+      const jid = 'example@s.whatsapp.net';
       const isValid = atbverifierEtatJid(jid);
-      console.log('Is JID valid?', isValid); // You can use this result in further logic
+      console.log('Is JID valid?', isValid);
   })
   .catch(error => {
-      console.error('Error loading the file from GitHub:', error);
+      console.error('Error loading the file from URL:', error);
   });
-

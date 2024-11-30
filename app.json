@@ -23,7 +23,7 @@
     },
 "MENUTYPE":
     {
-      "description":"Enter 1 for Christmas menu, Enter 2 normal menu, leave blank for random display ",
+      "description":"Enter 1 for Christmas menu, Enter 2 for normal menu, leave blank for random display ",
       "value":"1",
       "required":false
     },

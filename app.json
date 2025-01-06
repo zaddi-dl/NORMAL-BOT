@@ -51,7 +51,7 @@
       "value":"no",
       "required":false
     },
-"AUTO_REPLY":
+"CHATBOT":
     {
       "description":"Enter yes for your bot to auto reply message when offline",
       "value":"no",

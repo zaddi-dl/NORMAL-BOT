@@ -27,9 +27,9 @@
       "value":"",
       "required":false
     },
-"AUDIO_REPLY":
+"AUDIO_CHATBOT":
     {
-      "description":"Enter yes for your bot to audio reply",
+      "description":"Enter yes for your bot to audio chat to messages when offline ",
       "value":"no",
       "required":false
     },

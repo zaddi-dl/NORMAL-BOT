@@ -52,9 +52,12 @@ adams({
   const imageUrl = thumb || "https://files.catbox.moe/novrnn.jpg";
 
   const caption = `
-*Bwm xmd lyrics*\n
-*Title*: ${title}
-*Artist**: ${artist}\n\n${lyrics}`;
+╭──────────━⊷
+║ *Bot Name:* BMW XMD
+║ *Title:* ${title}
+║ *Artist:* ${artist}
+╰──────────━⊷\n\n
+${lyrics}`;
 
   try {
     // Fetch the image

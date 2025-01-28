@@ -162,14 +162,9 @@
     "value":"",
     "required": false
   },
-  "ANTIDELETE2" : {
-    "description": "if you want to enable anti delete in conversation put yes else put no",
-    "value": "no",
-        "required": false
- },
-  "ANTIDELETE1" : {
-    "description": "if you want to enable anti delete messages to be sent to your inbox put yes else put no",
-    "value": "no",
+  "ANTIDELETE_MESSAGES" : {
+    "description": "Deleted messages will be sent to your inbox, enter yes to enable else put no",
+    "value": "yes",
         "required": false
   }
   },

@@ -117,12 +117,12 @@
     }
 	,
     "HEROKU_API_KEY": {
-    "description": "insert your heroku api-key (this is optionnal)",
-     "required" :false
+    "description": "Insert your heroku api-key copy it from your heroku account settings",
+     "required" :true 
     },
   "HEROKU_APP_NAME": {
-    "description": "insert your heroku APP NAME (this is optionnal)",
-     "required" :false
+    "description": "Insert your heroku APP NAME enter same as the app name exactly, the fast name up there ",
+     "required" :true 
     }  
 	  ,
     "NUMERO_OWNER":
